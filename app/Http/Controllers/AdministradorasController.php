@@ -18,4 +18,8 @@ class AdministradorasController extends Controller
         $adm=$this->ObjAdm ->all();
         return view('portal.administradoras.index',compact('adm'));
     }
+    public function show($id)
+    {
+        echo $id;
+    }
 }

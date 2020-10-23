@@ -10,4 +10,8 @@ class DashboardController extends Controller
     {
         return view('portal.dashboard.index');
     }
+    public function dashboardv2()
+    {
+        return view('portal.dashboard.index2');
+    }
 }

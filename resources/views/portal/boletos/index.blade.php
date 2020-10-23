@@ -1,5 +1,5 @@
-@extends ('portal.master.layout')
-@section('home')
+@extends ('portal.master.teste')
+@section('teste')
 <h5 class="display-4 font-weight-normal">Boletos</h5>
     
     <div class="text-left">

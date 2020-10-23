@@ -18,4 +18,8 @@ class UnidadesController extends Controller
         $unidades=$this->ObjUnidade ->all();
         return view('portal.unidades.index',compact('unidades'));
     }
+    public function create()
+    {
+        return view('portal.unidades.create');
+    }
 }

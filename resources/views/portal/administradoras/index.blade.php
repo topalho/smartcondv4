@@ -6,7 +6,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>teste</h1>
+            <h1>Lista de administradoras cadastradas</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -45,7 +45,7 @@
                       <td>{{$adm->endereco}}</td>
                       <td>{{$adm->numero}}</td>
                       <td>
-                          <a href="">
+                          <a href="{{url("administradoras/$adm->id")}}">
                           <button class="btn btn-dark">Vizualizar</button>
                       </a>
         
