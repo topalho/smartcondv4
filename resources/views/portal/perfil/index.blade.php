@@ -11,8 +11,8 @@
               </div>
               <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active">User Profile</li>
+                  <li class="breadcrumb-item"><a href="{{route('dashboard.index')}}">Dashboard</a></li>
+                  <li class="breadcrumb-item active"><a href="{{route('perfil.index')}}">Perfil</a></li>
                 </ol>
               </div>
             </div>
@@ -118,16 +118,16 @@
                               <a href="#">Jonathan Burke Jr.</a>
                               <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
                             </span>
-                            <span class="description">Shared publicly - 7:30 PM today</span>
+                            <span class="description">Morador da unidade 5, apto 15.</span>
                           </div>
                           <!-- /.user-block -->
                           <p>
-                            lort
+                            Aléxia, pode gerar um novo boleto para mim referente aos dois meses que estou em atraso?
                           </p>
     
                           <p>
-                            <a href="#" class="link-black text-sm mr-2"><i class="fas fa-share mr-1"></i> Share</a>
-                            <a href="#" class="link-black text-sm"><i class="far fa-thumbs-up mr-1"></i> Like</a>
+                            <a href="#" class="link-black text-sm mr-2"><i class="fas fa-share mr-1"></i> Compartilhar</a>
+                            <a href="#" class="link-black text-sm"><i class="far fa-thumbs-up mr-1"></i> Gostei</a>
                             <span class="float-right">
                               <a href="#" class="link-black text-sm">
                                 <i class="far fa-comments mr-1"></i> Interações (5)
@@ -147,22 +147,18 @@
                               <a href="#">Sarah Ross</a>
                               <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
                             </span>
-                            <span class="description">Sent you a message - 3 days ago</span>
+                            <span class="description">Morador da unidade 10, apto 7.</span>
                           </div>
                           <!-- /.user-block -->
                           <p>
-                            Lorem ipsum represents a long-held tradition for designers,
-                            typographers and the like. Some people hate it and argue for
-                            its demise, but others ignore the hate as they create awesome
-                            tools to help create filler text for everyone from bacon lovers
-                            to Charlie Sheen fans.
+                            Aléxia, quando podemos conversar sobre o acordo realizado na última assenbléia? O morador do 501 ainda está colocando som alto após as 22h =/
                           </p>
     
                           <form class="form-horizontal">
                             <div class="input-group input-group-sm mb-0">
                               <input class="form-control form-control-sm" placeholder="Response">
                               <div class="input-group-append">
-                                <button type="submit" class="btn btn-danger">Send</button>
+                                <button type="submit" class="btn btn-danger">Enviar</button>
                               </div>
                             </div>
                           </form>
@@ -177,7 +173,7 @@
                               <a href="#">Adam Jones</a>
                               <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
                             </span>
-                            <span class="description">Posted 5 photos - 5 days ago</span>
+                            <span class="description">Fotografo do condomínio</span>
                           </div>
                           <!-- /.user-block -->
                           <div class="row mb-3">
@@ -225,7 +221,7 @@
                           <!-- timeline time label -->
                           <div class="time-label">
                             <span class="bg-danger">
-                              10 Feb. 2014
+                              2 Nov. 2020
                             </span>
                           </div>
                           <!-- /.timeline-label -->
@@ -236,17 +232,14 @@
                             <div class="timeline-item">
                               <span class="time"><i class="far fa-clock"></i> 12:05</span>
     
-                              <h3 class="timeline-header"><a href="#">Support Team</a> sent you an email</h3>
+                              <h3 class="timeline-header"><a href="#">Time de atendimento</a> enviado por e-mail</h3>
     
                               <div class="timeline-body">
-                                Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles,
-                                weebly ning heekya handango imeem plugg dopplr jibjab, movity
-                                jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo kaboodle
-                                quora plaxo ideeli hulu weebly balihoo...
+                                Segue ata de esclarecimento referente a reunião de condomínio realizado no último sábado.
                               </div>
                               <div class="timeline-footer">
-                                <a href="#" class="btn btn-primary btn-sm">Read more</a>
-                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                                <a href="#" class="btn btn-primary btn-sm">Ler mais</a>
+                                <a href="#" class="btn btn-danger btn-sm">Apagar</a>
                               </div>
                             </div>
                           </div>
@@ -258,7 +251,7 @@
                             <div class="timeline-item">
                               <span class="time"><i class="far fa-clock"></i> 5 mins ago</span>
     
-                              <h3 class="timeline-header border-0"><a href="#">Sarah Young</a> accepted your friend request
+                              <h3 class="timeline-header border-0"><a href="#">Aléxia Santos</a> remetente do e-mail / principal
                               </h3>
                             </div>
                           </div>
@@ -270,15 +263,13 @@
                             <div class="timeline-item">
                               <span class="time"><i class="far fa-clock"></i> 27 mins ago</span>
     
-                              <h3 class="timeline-header"><a href="#">Jay White</a> commented on your post</h3>
+                              <h3 class="timeline-header"><a href="#">Jay White</a> comentou na sua publicação</h3>
     
                               <div class="timeline-body">
-                                Take me to your leader!
-                                Switzerland is small and neutral!
-                                We are more like Germany, ambitious and misunderstood!
+                                Oie, muito obrigado! Eu estava precisando mesmo desse resumo, tive um imprevisto e não consegui comparecer na reunião.
                               </div>
                               <div class="timeline-footer">
-                                <a href="#" class="btn btn-warning btn-flat btn-sm">View comment</a>
+                                <a href="#" class="btn btn-warning btn-flat btn-sm">Responder comentário</a>
                               </div>
                             </div>
                           </div>
@@ -286,7 +277,7 @@
                           <!-- timeline time label -->
                           <div class="time-label">
                             <span class="bg-success">
-                              3 Jan. 2014
+                              3 Nov. 2020
                             </span>
                           </div>
                           <!-- /.timeline-label -->
@@ -297,7 +288,7 @@
                             <div class="timeline-item">
                               <span class="time"><i class="far fa-clock"></i> 2 days ago</span>
     
-                              <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+                              <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded de novas fotos</h3>
     
                               <div class="timeline-body">
                                 <img src="http://placehold.it/150x100" alt="...">
@@ -318,31 +309,31 @@
                       <div class="tab-pane" id="settings">
                         <form class="form-horizontal">
                           <div class="form-group row">
-                            <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                            <label for="inputName" class="col-sm-2 col-form-label">Nome</label>
                             <div class="col-sm-10">
                               <input type="email" class="form-control" id="inputName" placeholder="Name">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                            <label for="inputEmail" class="col-sm-2 col-form-label">E-mail</label>
                             <div class="col-sm-10">
                               <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputName2" class="col-sm-2 col-form-label">Name</label>
+                            <label for="inputName2" class="col-sm-2 col-form-label">Nome</label>
                             <div class="col-sm-10">
                               <input type="text" class="form-control" id="inputName2" placeholder="Name">
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputExperience" class="col-sm-2 col-form-label">Experience</label>
+                            <label for="inputExperience" class="col-sm-2 col-form-label">Experiência</label>
                             <div class="col-sm-10">
                               <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
                             </div>
                           </div>
                           <div class="form-group row">
-                            <label for="inputSkills" class="col-sm-2 col-form-label">Skills</label>
+                            <label for="inputSkills" class="col-sm-2 col-form-label">Habilidades</label>
                             <div class="col-sm-10">
                               <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
                             </div>
@@ -351,14 +342,14 @@
                             <div class="offset-sm-2 col-sm-10">
                               <div class="checkbox">
                                 <label>
-                                  <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
+                                  <input type="checkbox"> Eu li e concordo com os <a href="#">termos e condições</a>
                                 </label>
                               </div>
                             </div>
                           </div>
                           <div class="form-group row">
                             <div class="offset-sm-2 col-sm-10">
-                              <button type="submit" class="btn btn-danger">Submit</button>
+                              <button type="submit" class="btn btn-danger">Enviar</button>
                             </div>
                           </div>
                         </form>

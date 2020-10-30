@@ -22,15 +22,15 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-      <a href="{{asset('AdminLTE/index2.html')}}"><b>SmartCond</a>
-      <img src="{!! asset('img/logo.png') !!}" width="350" alt="AdminLTE Logo" class="card-body login-card-body>
+    <img  src="{!! asset('img/logo.png') !!}" width="350" height="200">
+    <a href="../../index2.html"><b>Smart</b>Cond</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Logue para acessar o sistema</p>
+      <p class="login-box-msg">Logue no sistema</p>
 
-      <form action="{{asset('AdminLTE/index3.html" method="post')}}">
+      <form action="../../index3.html" method="post">
         <div class="input-group mb-3">
           <input type="email" class="form-control" placeholder="Email">
           <div class="input-group-append">
@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Password">
+          <input type="password" class="form-control" placeholder="Senha">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -48,30 +48,26 @@
           </div>
         </div>
         <div class="row">
-            <div class="col-25" widht="100">
-              <div class="icheck-primary">
-                <input type="checkbox" id="remember">
-                <label for="remember">
-                  Remember Me
-                </label>
-              </div>
+          <div class="col-8">
+            <div class="icheck-primary">
+              <input type="checkbox" id="remember">
+              <label for="remember">
+                Lembrar senha
+              </label>
             </div>
-            <!-- /.col -->
-            <div class="col-4">
-              <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-            </div>
-            <!-- /.col -->
           </div>
-        </form>
-
-     
-      <!-- /.social-auth-links -->
-
+          <!-- /.col -->
+          <div class="col-4">
+            <button type="submit" class="btn btn-primary btn-block">Logar</button>
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
       <p class="mb-1">
-        <a href="forgot-password.html">I forgot my password</a>
+        <a href="forgot-password.html">Eu esqueci minha senha</a>
       </p>
       <p class="mb-0">
-        <a href="register.html" class="text-center">Register a new membership</a>
+        <a href="{{ route('dashboard.index')}}" class="text-center">Acesse uma demonstração do sistema</a>
       </p>
     </div>
     <!-- /.login-card-body -->
